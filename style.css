@@ -1,0 +1,84 @@
+* {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+nav {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.list-item {
+    padding-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-item~li {
+    color: grey;
+}
+
+.log {
+    float: right;
+    width: 750px;
+    top: 2rem;
+}
+
+.heading-text {
+    position: absolute;
+    top: 13rem;
+    font-family: 'Poppins', sans-serif;
+    left: 6rem;
+    line-height: 5rem;
+    font-weight: 600;
+    font-size: 55px;
+    width: 360px;
+    text-align: end;
+    color: hsl(245, 91%, 21%);
+}
+
+span {
+    position: absolute;
+    color: hsla(238, 55%, 49%, 0.829);
+    bottom: 5rem;
+    left: -0.1rem;
+}
+
+.description {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    left: 6.5rem;
+    bottom: 17rem;
+    width: 340px;
+    color: gray;
+}
+
+.button-group>button {
+    position: absolute;
+    right: 7rem;
+    background-color: hsla(238, 55%, 49%, 0.829);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+}
+
+.btn {
+    background-color: hsla(238, 55%, 49%, 0.829);
+    border: none;
+    position: absolute;
+    border-radius: 7px;
+    left: 7rem;
+    color: white;
+    height: 60px;
+    font-size: 15px;
+    width: 200px;
+    bottom: 10rem;
+}
